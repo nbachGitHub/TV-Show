@@ -1,0 +1,141 @@
+/* CSS files add styling rules to your content */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Hanalei+Fill&display=swap');
+body {
+  background-color: LightCyan;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #466060;
+}
+li {
+    float: left;
+}
+li a {
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    color: #C8E9A0;
+    display: block;
+  font-family: 'Anton', sans-serif;
+  
+}
+li a:hover {
+    background-color: #111;
+}
+
+h1 {
+  font-family: 'Hanalei Fill', cursive;
+  text-align: center;
+  font-size: 50pt;
+  color: #6DD3CE;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  font-family: 'Hanalei Fill', cursive;
+  text-align: center;
+  color: #6DD3CE;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 100px 330px 400px;
+  color: white;
+}
+
+.b{
+  grid-column: 3/3;
+    background-color: #466060;
+  padding: 0.7em;
+}
+
+.container2 {
+  font-family: 'Hanalei Fill', cursive;
+  text-align: center;
+  color: #6DD3CE;
+}
+
+.wrapper2 {
+  display: grid;
+  grid-template-columns: 100px 330px 400px;
+  color: white;
+}
+
+.b2{
+  grid-column: 3/3;
+    background-color: #466060;
+  padding: 0.7em;
+}
+
+.wrapper3 {
+   display: grid;
+  grid-template-columns: 400px 400px ;
+  color: black;
+}
+
+.a3 {
+  grid-column: 1/2;
+  margin-left: 25em;
+}
+
+.b3 {
+  grid-column: 2/2;
+  margin-left: 15em;
+}
+
+.wrapper4 {
+   display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+  color: white;
+}
+
+.a4 {
+  padding-right: 2em;
+  padding-left: 1em;
+  margin-top: 1em;
+  background-color: #466060;
+  padding-top: 0.4em;
+}
+
+.b4 {
+  padding-right: 2em;
+  margin-top: 1em;
+  margin-left: 2em;
+  background-color: #466060;
+  padding-top: 0.4em;
+  padding-left: 1em;
+}
+
+.c4 {
+  padding-right: 2em;
+  margin-top: 1em;
+  background-color: #466060;
+  padding-top: 0.4em;
+  padding-left: 1em;
+  margin-left: 2em;
+}
+
+.d4 {
+  padding-right: 2em;
+  margin-top: 1em;
+ padding-left: 1em;
+  background-color: #466060;
+  padding-top: 0.4em;
+  margin-left: 2em;
+}
+
+.character {
+  color: #466060;
+  text-align: center;
+  font-size: 17pt
+}
+
